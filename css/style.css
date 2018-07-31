@@ -1,0 +1,505 @@
+.container-fluid, .container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin:0px;
+    width: 100%;
+
+
+}
+.containerBack{
+     background: #1469A5;
+     height: 100%;
+     width: 100%;
+}
+.nopad{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.loginMain_page{
+    margin:0 auto;
+    width: 28%;
+}
+.backWhite{
+    background: #fff;
+    padding: 30px;
+
+}
+.modal-dialog{
+    margin:0 auto;
+}
+.loginPage{
+   
+    transform: scale(0);
+    transition: 1s;
+}
+.float_text, .float_text1{
+    float: left;
+}
+
+.active .loginPage{
+    transform: scale(1);
+    transition: 1s;
+}
+.MyAsset_heading{
+        margin-top: 25%;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.Login_header{
+        color: #2383BB;
+    font-size: 14px;
+    font-weight: 600;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt30{
+        margin-top: 30px;
+}
+.mt40{
+    margin-top: 40px;
+}
+/*******************************************************/
+.fieldsUL{
+    padding: 0px;
+}
+.redDiv{
+        float: left;
+    background: #EE3341;
+    padding: 14px 14px;
+    border-radius: 50%;
+        margin-left: 20px;
+}
+.blueDiv{
+        float: left;
+    background: #00A1DE;
+    padding: 14px 14px;
+    border-radius: 50%;
+        margin-left: 20px;
+}
+.greenDiv{
+        float: left;
+    background: #6CC24A;
+     padding: 14px 14px;
+    border-radius: 50%;
+        margin-left: 20px;
+}
+.close_btn{
+    background: transparent;
+    border: none;
+}
+/*******************************************************/
+.login-btn{
+   
+    position: relative;
+    height: 36px;
+    min-width: 100px;
+    font-size: 12px;
+    padding: 0 14px;
+    text-transform: uppercase;
+    font-family: roboto-medium;
+    text-align: center;
+   
+    border-radius: 2px;
+    color: #fff;
+    background: #00A2E0;
+    z-index: 9;
+    border: none;
+  }
+    .login-btn:hover{ box-shadow: 0px 5px 13px 0px #ccc;}
+.login-btn::after {
+    position: absolute;
+    content: '';
+    background: #065e7f;
+    height: 100%;
+    width: 100%;
+    float: left;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    color: #fff;
+    opacity:0;
+    border-radius: 5px;
+}
+.login-btn:hover::after {
+    background-color: transparent;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    opacity:1;   
+}
+.forgotPass{
+    color: #ccc;
+    font-size: 12px;
+}
+.leftMenu_li{
+        padding: 12px 15px;
+        cursor: pointer;
+}
+.leftMenu_li:hover, .leftMenu_li.active{
+    background-color:#E4F5FB;
+}
+ .leftMenu_li label{
+    cursor: pointer;
+    font-size: 13px;
+ }
+ .leftMenu_li:hover label, .leftMenu_li.active label{
+    color: #0DA3E0;
+
+ }
+ .padd30{
+    padding: 30px;
+ }
+ .my_asset_heding{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a4a4a4;
+ }
+.ttlAsset{
+    padding: 20px 15px 20px 0px;
+}
+.undeclared{
+    padding: 20px 15px;
+}
+.declared{
+    padding: 20px 0px 20px 15px;
+}
+.borderAll{
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.backBlue{
+        background: #00A1DE;
+  
+}
+.padding15{
+      padding: 15px;
+}
+.color-white{
+    color: #fff;
+        margin-left: 10px;
+}
+.assetLap{
+    background: #D8EBF1;
+    padding: 6px;
+    font-size: 13px;
+    color: #000;
+
+}
+.assetBorder{
+        border: 1px solid #D8EBF1;
+}
+.asset_details{
+    font-size: 12px;
+    font-family: "Roboto-bold";
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.noRed{
+        color: #EE3341;
+    font-size: 26px;
+}
+.redText{
+    color: #EE3341;
+    font-family: "Roboto-medium";
+    font-size: 12px;
+}
+.noBlue{
+     color: #00A1DE;
+    font-size: 26px;
+}
+.blueText{
+    color: #00A1DE;
+    font-family: "Roboto-medium";
+    font-size: 12px;
+}
+.noGreen{
+     color: #6CC24A;
+    font-size: 26px;
+}
+.greenText{
+     color: #6CC24A;
+    font-family: "Roboto-medium";
+    font-size: 12px;
+}
+.assetUl{
+    padding: 0px;
+    list-style-type: none;
+}
+.assetUl li{
+    padding: 15px;
+}
+.assetUl li label{
+        color: #A7A7A7;
+    font-size: 12px;
+}
+.fnt-family-medium{
+    font-family: "Roboto-medium";
+        font-size: 12px;
+}
+.fieldsLI4{
+
+    float: left;
+    width: 25%;
+    min-height: 60px;
+    position: relative;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 0px 15px;
+}
+a, a:hover, a.active{
+    color: #000;
+
+}
+.radioDiv{
+    background: #D8EBF1;
+    padding: 10px;
+}
+.fieldsLI2{
+
+    float: left;
+    width: 49%;
+    min-height: 60px;
+    position: relative;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 0px 15px;
+}
+.submit_pop>.modal-dialog {
+    width: 400px !important;
+    top: 30%;
+}
+.pop_head_msg{
+    float: left;
+    width: 92%;
+ 
+    color: #000;
+    font-size: 14px;
+    font-family: "Roboto-medium"
+}
+.msgP{
+font-size: 13px;
+    color: #525252;
+}
+.fieldsLI3{
+
+    float: left;
+    width: 33.33%;
+    min-height: 60px;
+    position: relative;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 0px 15px;
+}
+.fnt-size13{
+    font-size: 13px;
+color: #000;
+}
+.addtnl-asset-table th{
+    background: #00A1DE;
+    padding: 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto-medium";
+}
+.addtnl-asset-table td{
+    padding: 8px;
+    font-size: 13px;
+}
+.addtnl-asset-table tr:nth-child(even) {
+    background: #F1F1F1;
+}
+.addtnl-asset-table tr:nth-child(odd) {
+    background: #FFF;
+}
+.info_msg{
+    font-size: 12px;
+    font-family: "Roboto-medium";
+}
+.locationUl{
+    padding: 0px;
+    list-style-type: none;
+}
+.locationUl li{
+    padding: 15px;
+    width: 20%;
+    float: left;
+}
+.locationUl li label{
+        color: #A7A7A7;
+    font-size: 12px;
+}
+.margLeft10{
+    margin-left: 10px;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.LeftMenuAccord .panel-heading .panel-title>a{
+    background: url('../images/down-arrow (1).png') no-repeat 98%;
+  
+}
+.LeftMenuAccord .panel-heading .panel-title>a[role=tab][aria-selected=true]{
+    background: url('../images/arrow-navigate-close.png') no-repeat 98%;
+ 
+}
+.assetIocn{
+        position: absolute;
+    right: 0;
+    top: 24px;
+}
+.colorwhite{
+    color: #fff !important;
+}
+.panel-heading .panel-title>a:hover {
+    font-family: 'Roboto-Medium';
+    border-bottom: 2px solid #00A1DE;
+}
+.paddingright{
+    padding:15px 0px;
+}
+.fileText{
+        position: absolute;
+    z-index: 99999;
+    opacity: 0;
+        top: 30px;
+}
+.browseText{
+    background: transparent;
+    border: none;
+border-bottom: 1px solid #dadada;
+     margin-top: 12px;
+    padding: 8px;
+    font-size: 12px;
+}
+.uploadIcon{
+    position: absolute;
+    right: 18px;
+    top: 34px;
+    color: #a89999;
+}
+.valueTextbox{
+        padding: 5px;
+    border: none;
+        font-size: 12px;
+    outline: none;
+}
+.valueBorder{
+    border: 1px solid #ccc;
+}
+.mrg5{
+    margin: 5px;
+
+}
+
+.hoverImg{
+    float: left;
+    background:url('../images/mo_ho_2.png') no-repeat;
+    width:100%;
+    height: 194px;
+}
+.hoverImg2{
+    float: left;
+    background:url('../images/Computername.png') no-repeat;
+    width:100%;
+    height: 116px;
+}
+.hoverImages{
+    position: absolute;
+    left: 12%;
+    z-index: 999;
+top: -80px;
+width:26%;
+}
+.hoverImages_assetnumber{
+     position: absolute;
+    left: 38%;
+    z-index: 999;
+top: -80px;
+width:26%;
+}
+.innerHover{
+        background: #ccc;
+    padding: 10px;
+    border-radius: 6px;
+}
+.fntsize12{
+    font-size: 12px;
+}
+
+.spocName_div{
+    float: left;
+    width: 22%;
+        padding: 10px;
+}
+.topLabel{
+ font-size: 13px;
+    font-family: "Roboto-bold";
+    margin-bottom: 0px;
+}
+.email_span{
+        font-size: 12px;
+    color: #7C7C7C;
+}
+.contact_div{
+    float: left;
+    width: 10%;
+        padding: 10px;
+}
+.mediumFont{
+    font-size: 12px;
+    font-family: "Roboto-medium";
+        color: #676767;
+}
+.imagDiv{
+    float: left;
+    width: 44px;
+}
+.details{
+    float: left;
+    width: 76%;
+}
+.commo_btn{
+    background:transparent;
+    border: none;
+    float: left;
+        margin-top: 4px;
+}
+.number_buttons{
+   background:transparent;
+    border: none; 
+    border-radius: 50%;
+        padding: 6px;
+    width: 32px;
+    height: 32px;
+    color: #A6A6A6;
+        margin-left: 6px;
+        float: left;
+}
+.number_buttons:hover{
+    background:#DFDFDF;
+    color: #000;
+}
+.number_buttons.active{
+    background:#00A2E0;
+    color: #fff;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.restriction{
+    color: #A7A7A7;
+    font-size: 12px;
+}

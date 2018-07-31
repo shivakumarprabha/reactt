@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+
+@media screen and (max-width:2200px) and (min-width:1370px) {  
+.LeftMenuMain{height:1200px;}
+.floatText {
+    float: left;
+    padding: 3px 20px;
+}
+.workflow_ul li:after {
+    
+    right: -78px;
+}
+
+
+}
+@media only screen and (max-width:1180px){
+    .workflow_ul li:after{
+            width: 50%;
+        right: -40px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .details{
+        width: 68%;
+    }
+    .spocName_div, .contact_div{
+        width: 100%;
+            padding: 15px;
+    }
+    .MyAsset_heading{
+        margin-top: 46%;
+    }
+    .loginMain_page{
+        width: 40%;
+    }
+    .borderAll{
+        height: 100px;
+    }
+	.workflow_ul li:after {
+        width: 43%;
+        right: -30px;
+    }
+	.cards {
+        float: left;
+        width: 48%;
+    }
+    .FlipCards {
+        width: 48%;   
+    }
+    .edit-btn {
+    margin: 14px 15px;
+}
+   
+}
+@media only screen and (max-width:960px){
+    .workflow_ul li:after {
+    width: 36%;
+    right: -21px;
+    top: 30px;
+}
+    .round_cls {
+        width: 50px;
+        height: 50px;
+    }
+    .icon-goals_objectives:before,.icon-discussion:before,.icon-check_mark:before{
+    top: 13px;
+    left: 12px;
+    font-size: 26px;
+}
+.icon-dummy_profile:before{ 
+     font-size: 60px;
+     top: 13px;
+}
+}
+@media only screen and (max-width:768px){
+    .fieldsLI3{
+        width: 50%;
+    }
+    .locationUl li{
+        width: 25%;
+    }
+    .ttlAsset, .undeclared, .declared{
+    padding: 20px 0px;
+}
+    .loginMain_page {
+        width: 50%;
+    }
+	.workflow_ul li:after {
+	    width: 43%;
+	    right: -29px;
+	}
+.LeftMenuMain { 
+    left: -300px;
+    z-index: 999;background: #fff;top:0;
+
+    
+}
+.MobileMenu .LeftMenuMain {
+   
+left: 0px;
+    
+}
+.right_section {
+    padding-left:0;
+}
+.oneN,.twoN,.threeN,.fourN,.fiveN{
+    width: 25px;
+height: 25px;
+margin-right: 6px;
+padding: 0px;
+}
+.menu_mobile{display: block;
+float: left;
+    background: transparent;
+    border: none;
+ 
+    margin-right: 10px;}
+} 
+.MobileMenu .overley-Mobile {
+    display: block;
+}
+
+@media only screen and (max-width:740px){
+    .submit_pop>.modal-dialog{
+        top: 20%;
+    }
+    .fieldsLI4, .fieldsLI3{
+        width: 33.33%;
+    }
+    .MyAsset_heading {
+    margin-top: 0%;
+}
+	.processFlowBorder{
+    display: none;
+}
+	
+	.workflow_ul li {
+    width: 100%;
+
+}
+.workflow_ul li:after {
+    width: 2px;
+    right: 22px;
+    left: 50%;
+
+    
+}
+
+.workflow_ul li:last-child:after {
+    display: none;
+}
+
+.tabs_main{right:0;left:0;}
+ .edit-btn {
+        margin: -40px 10px;
+    }
+.cards {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.FlipCards {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.line-button {
+    left: -27%;
+}
+.savePopup:nth-child(1) > div > div {
+    width: 94% !important;
+}
+.active-search .search-content-main {
+   
+    width: 115px;
+}
+
+    .logo_text {
+      margin: 0;
+    }
+    .mywip_text{display: none;}
+    .MobileMenu .overley-Mobile{display: block}
+    .forms_ul li {
+        line-height: 15px;
+         height: auto; 
+    }
+    .footer-bottom {
+        
+        background: rgba(238, 238, 238, 0.46);
+    }
+    .primary-btn {
+        
+        margin: 14px 40px;
+        
+    }
+    .mrgn100{margin-bottom: 100px;
+    }
+    .LeftMenuMain{width:300px;}
+    .tablemain-cls{
+        padding: 0 15px;
+    }
+    .tablemain-cls .table-responsive{
+        padding: 0px;
+        
+    }
+    .tablemain-cls .table-responsive .table_cls{
+        margin: 0px;
+    }
+}
+@media only screen and (max-width:732px){
+	
+	
+}
+@media only screen and (max-width:667px){
+    body{
+        background: #1469a5;
+    }
+    .login-btn{
+        min-width: 128px;
+    }
+    .locationUl li{
+        width: 33.33%;
+    }
+.head-mob{padding: 0;}
+.icon-logout,.icon-settings{
+    display: none;
+}
+.workflow_div{display: none;}
+.backbtn_text{display: none;}
+}
+@media only screen and (max-width:640px){
+    .inner-ul li .radio-btn:first-child,.inner-ul li .checkbox-btn:first-child {
+        margin-right: 0px;
+    }
+
+}
+/* All Smartphones in portrait and landscape ----------- */
+
+@media only screen and (max-width: 568px) {
+    .locationUl li {
+    width: 33.33%;
+}
+.submit_pop>.modal-dialog {
+    top: 12%;
+}
+	
+}
+@media only screen and (max-width: 480px) {
+	.loginMain_page {
+    width: 72%;
+}
+ .width100{
+        width: 100% !important;
+     }
+     .fieldsLI4, .fieldsLI2, .fieldsLI3, .locationUl li{
+        width: 100%;
+    }
+	
+}
+@media only screen and (max-width: 414px) {
+      .loginMain_page{
+            width: 80%;
+       }
+       .MyAsset_heading {
+             margin-top: 36%;
+     }
+    
+	
+    .submit_pop>.modal-dialog {
+        width: 350px !important;
+        top: 32%;
+    }
+    .float_text{
+        float: right;
+    }
+    .padd10{
+            padding: 10px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .commo_btn{
+        padding: 2px;
+    }
+    .number_buttons{
+        width: 28px;
+    height: 28px;
+    margin-left: 0px;
+    }
+	
+}
+@media only screen and (max-width: 360px) {
+        .submit_pop>.modal-dialog {
+    width: 326px !important;
+    top: 30%;
+}
+	
+}
+
+@media only screen and (max-width: 320px) {
+    .login-btn {
+    min-width: 109px;
+}
+	   .MyAsset_heading {
+             margin-top: 26%;
+        }
+        .loginMain_page {
+    width: 90%;
+}
+.submit_pop>.modal-dialog {
+    width: 280px !important;
+    top: 26%;
+}
+.pop_head_msg{
+    width: 86%;
+}
+
+}
